@@ -1,0 +1,7 @@
+---
+layout: post
+title: advanced
+category: advanced
+---
+
+A 'advanced' post ...
