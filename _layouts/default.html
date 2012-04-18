@@ -34,6 +34,11 @@ sidebar_cats:
     
     <aside>
         <nav>
+            <ol>
+        {% for cat in (site.categories) %}
+            <li>cat</li>
+        {% endfor %}
+            </ol>
             <ul>
         {% for cat in (page.sidebar_cats) %}
                 <li>
