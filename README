@@ -1,0 +1,22 @@
+Lege Dir bitte einen eigenen GitHub Account an, installiere einen Client für Git und ziehe Dir dann eine Kopie per 'Fetch'.
+
+Starte mit einem Beispiel im Verzeichnis _posts, Namenskonvention
+YYYY-MM-DD-titel-des-posts.markdown
+
+Details zur Markdown Syntax findest Du in
+http://daringfireball.net/projects/markdown/syntax +
+http://github.github.com/github-flavored-markdown/
+
+Starte (je)den Post bitte mit sog. YAML Front Matter,
+https://github.com/mojombo/jekyll/wiki/yaml-front-matter:
+
+---
+layout: post
+title: Titel der Seite
+category: Name_der_Kategorie
+---
+
+'title' wird auch als Eintrag in der Navigation verwendet, 'category' legt die beinhaltende Navigationskategorie fest.
+Optional können 'tags' vergeben werden, s. Front Matter Link oben.
+
+Assets wie z.b. Bilder lege bitte im Root in das Verzeichnis 'assets'.
