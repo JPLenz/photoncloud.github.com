@@ -1,7 +1,7 @@
 ---
 layout: post
 title: getting started
-category: tutorial
+category: tutorials
 ---
 
 A 'tutorial' post ...
