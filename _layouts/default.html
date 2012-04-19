@@ -19,17 +19,14 @@ sidebar_cats:
     <meta name="author" content="{{ site.author.name }}" />
     <meta name="viewport" content="width=device-width; initial-scale=1.0" />
     
-    <link href="{{ ASSET_PATH }}/css/eg.css" rel="stylesheet" media="all">
+    <link href="/_shared/css/eg.css" rel="stylesheet" media="all">
 
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="/_shared/favicon.ico" />
 </head>
 
 <body>
 
-    <header>
-        <h1>{{ page.title }}</h1>
-    </header>
+<div class="page"></div>
     
     <aside>
         <nav>
@@ -57,12 +54,33 @@ sidebar_cats:
         </nav>
     </aside>
 
-    <div>
-        {{ content }}
-    </div>
+    <section class="body" role="document">
+        
+        <section class="borderLight">
+            <div class="iP">
+                
+                <article>
+                    <a id="top"></a>
+                    <h1>{{ page.title }}</h1>
+                    
+                    {{ content }}
+                </article>
+                
+            </div>
+        </section>
 
-    <footer>
-        &copy; Copyright Exit Games
+    </section>
+    <b class="cA"></b>
+
+    <footer role="contentinfo">
+        <div class="iP">
+            <div class="mod">
+                &copy;<time datetime="2011-10-18">2011</time>
+                <a class="footerLink" href="http://www.exitgames.com/" target="_blank" rel="nofollow">Exit Games</a>&reg;,&nbsp;all rights reserved.
+                <a class="footerLink" href="http://www.exitgames.com/Account/TermsOfUse" rel="nofollow">Terms of Use</a> | 
+                <a class="footerLink" href="http://www.exitgames.com/Account/LicenseTerms" rel="nofollow">Photon License Terms</a>
+            </div>
+        </div>
     </footer>
 
 </body>
